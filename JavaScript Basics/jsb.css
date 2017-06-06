@@ -1,0 +1,70 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	background-color:rgb(29, 53, 92);
+}
+
+.container{
+	width:1000px;
+	height:1000px;
+}
+
+.header{
+	background-color: rgb(204, 50, 59);
+	width:1000px;
+	height:75px;
+	margin-top:10px;
+	margin-left:10px;
+	border-radius: 10px;
+}
+
+p, h1, h2{
+	color:rgb(149, 181, 218);
+}
+
+.nav{
+	background-color: rgb(47, 125, 139);
+	padding:20px;
+	border-radius:10px;
+	width:200px;
+	display: inline-block;
+	color: rgb(105, 210, 198);
+	vertical-align: top;
+	margin-top:20px;
+	margin-left:10px;
+
+}
+
+a{
+	color: rgb(105, 210, 198);
+}
+
+li{
+	margin-left:20px;
+}
+
+.lessons{
+	padding-left:30px;
+}
+
+.content{
+	margin-top:20px;
+	margin-left:20px;
+	background-color: rgb(15, 24,34);
+	width: 726px;
+	display:inline-block;
+	vertical-align: top;
+	border-radius: 10px;
+}
+
+.footer{
+	background-color: rgb(94, 102, 114);
+	display:inline-block;
+	vertical-align: top;
+	margin-left:10px;
+	margin-top:20px;
+	border-radius:10px;
+}
