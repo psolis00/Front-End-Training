@@ -8,16 +8,16 @@ body{
 }
 
 .container{
-	width:1000px;
+	margin-left:10px;
+	margin-top:10px;
+	width:1200px;
 	height:1000px;
 }
 
 .header{
 	background-color: rgb(204, 50, 59);
-	width:1000px;
-	height:75px;
-	margin-top:10px;
-	margin-left:10px;
+	width:1200px;
+	height:45px;
 	border-radius: 10px;
 }
 
@@ -29,13 +29,11 @@ p, h1, h2{
 	background-color: rgb(47, 125, 139);
 	padding:20px;
 	border-radius:10px;
-	width:200px;
+	width:200;
 	display: inline-block;
 	color: rgb(105, 210, 198);
 	vertical-align: top;
 	margin-top:20px;
-	margin-left:10px;
-
 }
 
 a{
@@ -44,27 +42,34 @@ a{
 
 li{
 	margin-left:20px;
+	color: rgb(105, 210, 198);
 }
 
 .lessons{
 	padding-left:30px;
 }
 
+.bold{
+	color: rgb(105, 100, 300);
+}
+
 .content{
 	margin-top:20px;
-	margin-left:20px;
 	background-color: rgb(15, 24,34);
-	width: 726px;
+	width: 912px;
 	display:inline-block;
 	vertical-align: top;
 	border-radius: 10px;
+	margin-left:20px;
+	padding:20px;
 }
 
 .footer{
 	background-color: rgb(94, 102, 114);
 	display:inline-block;
 	vertical-align: top;
-	margin-left:10px;
 	margin-top:20px;
 	border-radius:10px;
+	width:1200px;
+	padding:20px;
 }
