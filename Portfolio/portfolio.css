@@ -15,7 +15,7 @@
 	width: 880px;
 }
 
-h1{
+.header h1{
 	display:inline-block;
 	font:30px "Comic Sans MS", cursive, sans-serif;
 	background-color: white;
@@ -23,7 +23,7 @@ h1{
 	margin-left:14px;
 }
 
-h2{
+.header h2{
 	display:inline-block;
 	background-color:white;
 	float:right;
@@ -33,15 +33,16 @@ h2{
 	text-align:middle;
 }
 
+.content{
+	margin-top:15px;
+	display:inline-block;
+}
+
 .content img{
-	height: 240px;
+	height: 241px;
 	display: inline-block;
 	border: 5px solid lightgrey;
 	margin-left:15px;
-}
-
-.content{
-	margin-top:15px;
 }
 
 .about{
@@ -51,58 +52,92 @@ h2{
 	vertical-align:top;
 	font: 15px arial;
 	color:black;
-	background-color: white;
 	margin-right:15px;
 	margin-left:15px;
 }
 
-.info{
-	padding:10px;
-	color:grey;
-}
-
-.tag{
+.about h2{
 	height:20px;
+	width:435px;
 	background-color:grey;
 	color:white;
 	font: 20px arial;
 	padding:10px;
 	text-align:middle;
+	display: inline-block;
+}
+
+.about p{
+	padding:10px;
+	color:grey;
+	background-color:white;
+	display:inline-block;
 }
 
 .projects{
 	height:600px;
 	margin-top:15px;
 	margin-bottom:15px;
+	display:inline-block;
 }
 
 .column{
-	height:570px;
 	width:270px;
 	background-color:white;
 	display:inline-block;
 	margin-left:15px;
 	vertical-align: top;
 }
-.top{
-	height:370px;
-	width:270px;
-}
-
-.bottom{
-	height:200px
-	width:270px;
-}
 
 .column img{
 	width:270px;
 	height:150px;
+	display:inline-block;
 }
 
-.des{
+.column h2{
+	height:20px;
+	width:250px;
+	background-color:grey;
+	color:white;
+	font: 20px arial;
+	padding:10px;
+	text-align:middle;
+	display: inline-block;
+}
+
+.top p{
+	height:170px;
 	padding:9px;
 	font: 15px arial;
 	text-align: justify;
+	display:inline-block;
+}
+
+.bottom{
+	display:inline-block;
+	padding-bottom:20px;
+}
+
+.bottom h3{
+	width:100px;
+	margin-left:90px;
+	text-align:center;
+	background-color:green;
+	border-radius:5px;
+	border: 1px solid black;
+}
+
+.tech{
+	height:125px;
+}
+
+.tech img{
+	height:40px;
+	width:40px;
+	margin-top:9px;
+	margin-left:9px;
+	display:inline-block;
 }
 
 a{
