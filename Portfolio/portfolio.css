@@ -1,0 +1,133 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+
+.container{
+	width:880px;
+	background-color:brown;
+}
+
+.header{
+	display: inline-block;
+	height:75px;
+	background-color:white;
+	width: 880px;
+}
+
+h1{
+	display:inline-block;
+	font:30px "Comic Sans MS", cursive, sans-serif;
+	background-color: white;
+	margin-top: 14px;
+	margin-left:14px;
+}
+
+h2{
+	display:inline-block;
+	background-color:white;
+	float:right;
+	margin-top:24px;
+	margin-right:24px;
+	font: 15px arial bold;
+	text-align:middle;
+}
+
+.content img{
+	height: 240px;
+	display: inline-block;
+	border: 5px solid lightgrey;
+	margin-left:15px;
+}
+
+.content{
+	margin-top:15px;
+}
+
+.about{
+	display:inline-block;
+	width:455px;
+	height:250px;
+	vertical-align:top;
+	font: 15px arial;
+	color:black;
+	background-color: white;
+	margin-right:15px;
+	margin-left:15px;
+}
+
+.info{
+	padding:10px;
+	color:grey;
+}
+
+.tag{
+	height:20px;
+	background-color:grey;
+	color:white;
+	font: 20px arial;
+	padding:10px;
+	text-align:middle;
+}
+
+.projects{
+	height:600px;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+.column{
+	height:570px;
+	width:270px;
+	background-color:white;
+	display:inline-block;
+	margin-left:15px;
+	vertical-align: top;
+}
+.top{
+	height:370px;
+	width:270px;
+}
+
+.bottom{
+	height:200px
+	width:270px;
+}
+
+.column img{
+	width:270px;
+	height:150px;
+}
+
+.des{
+	padding:9px;
+	font: 15px arial;
+	text-align: justify;
+}
+
+a{
+	background-color:white;
+	color:grey;
+}
+
+.footer{
+	height:100px;
+	width:100%;
+	display:inline-block;
+	background-color:white;
+	text-align:center;
+	font: 15px arial;
+	color:grey;
+}
+
+.footer img{
+	height:20px;
+	margin-bottom:-5px;
+}
+
+.links{
+	text-decoration: underline;
+	font-style:italic;
+}
+
+
