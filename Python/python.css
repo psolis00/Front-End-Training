@@ -6,7 +6,7 @@
 .container{
 	height:1000px;
 	width:1000px;
-	background-color: rgb(0, 84, 138);
+	background-color: rgb(0, 80, 135);
 }
 
 .header{
@@ -77,4 +77,43 @@ input[type=submit]{
 	color:white;
 	border-radius:5px;
 	display:inline-block;
+	box-shadow:2px 2px rgb(50,50,50);
+}
+
+.nav{
+	display:inline-block;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:30px;
+	padding-right:30px;
+	background-color:rgb(0, 135, 195);
+	border-radius:7px;
+	box-shadow:3px 3px rgb(0, 0, 70);
+	margin-top:30px;
+	margin-left:91px;
+	margin-right:91px;
+}
+
+.nav a{
+	color:white;
+	font:20px arial;
+	text-decoration: none;
+	padding:20px;
+}
+
+ul.list{
+	text-align:center;
+	float:left;
+	display:inline-block;
+	margin-left: 130px;
+}
+
+ul.list li{
+	margin:10px;
+	list-style-position:inside;
+}
+
+ul.list a{
+	color:white;
+	font:17px arial;
 }
