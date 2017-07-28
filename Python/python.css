@@ -13,11 +13,11 @@
 	height:100px;
 }
 
-.left{
+.header .left{
 	display:inline-block;
 }
 
-.right{
+.header .right{
 	display:inline-block;
 	float:right;
 }
@@ -80,6 +80,12 @@ input[type=submit]{
 	box-shadow:2px 2px rgb(50,50,50);
 }
 
+.top{
+	width:810px;
+	text-align:center;
+	margin-left:95px;
+}
+
 .nav{
 	display:inline-block;
 	padding-top:15px;
@@ -90,8 +96,6 @@ input[type=submit]{
 	border-radius:7px;
 	box-shadow:3px 3px rgb(0, 0, 70);
 	margin-top:30px;
-	margin-left:91px;
-	margin-right:91px;
 }
 
 .nav a{
@@ -101,11 +105,17 @@ input[type=submit]{
 	padding:20px;
 }
 
+.topMid{
+	display: inline-block;
+	margin-top:15px;
+}
+
 ul.list{
 	text-align:center;
 	float:left;
 	display:inline-block;
-	margin-left: 130px;
+	margin-top: 10px;
+	margin-left:25px;
 }
 
 ul.list li{
@@ -116,4 +126,55 @@ ul.list li{
 ul.list a{
 	color:white;
 	font:17px arial;
+}
+
+.topMid .right{
+	display:inline-block;
+	width:580px;
+}
+
+.topMid .right p{
+	color:white;
+	font: 14px arial;
+}
+
+.topMid .right h2{
+	color:goldenrod;
+	font: 20px arial italic;
+	margin:10px;
+}
+
+.topMid .right h3{
+	color:white;
+	font:16px arial;
+}
+
+.botMid{
+	background-color:white;
+	text-align:center;
+	vertical-align: top
+}
+
+.botMid .left{
+	display: inline-block;
+	width: 300px;
+}
+
+.botMid .right{
+	display:inline-block;
+	width:300px;
+}
+
+.botMid p{
+	font: 14px arial;
+}
+
+.botMid h2{
+	font: 20px arial;
+	border-top: 5px solid blue;
+}
+
+.botMid a{
+	text-decoration: none;
+	color:rgb(0,135, 195);
 }
