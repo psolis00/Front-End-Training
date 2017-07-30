@@ -4,7 +4,7 @@
 }
 
 .container{
-	height:1000px;
+	height:825px;
 	width:1000px;
 	background-color: rgb(0, 80, 135);
 }
@@ -116,6 +116,13 @@ ul.list{
 	display:inline-block;
 	margin-top: 10px;
 	margin-left:25px;
+	list-style:none;
+}
+
+ul.list li:before{
+	content: "\00BB";
+	color: goldenrod;
+	margin-right:10px;
 }
 
 ul.list li{
@@ -140,7 +147,8 @@ ul.list a{
 
 .topMid .right h2{
 	color:goldenrod;
-	font: 20px arial italic;
+	font: 20px arial;
+	font-style:italic;
 	margin:10px;
 }
 
@@ -151,30 +159,89 @@ ul.list a{
 
 .botMid{
 	background-color:white;
+	margin-top:20px;
+	padding-top:10px;
+	border-top:3px solid black;
+	padding-bottom:15px;
 	text-align:center;
-	vertical-align: top
 }
 
 .botMid .left{
 	display: inline-block;
-	width: 300px;
+	vertical-align:top;
+	width: 360px;
+	text-align:center;
+	border-top: 5px solid blue;
+	padding-left:20px;
 }
 
 .botMid .right{
 	display:inline-block;
-	width:300px;
+	width:360px;
+	vertical-align:top;
+	text-align:center;
+	border-top: 5px solid blue;
+	padding-left:20px;
+	margin-left:20px;
+
 }
 
 .botMid p{
-	font: 14px arial;
+	font: 13px arial;
+	width:300px;
 }
 
 .botMid h2{
-	font: 20px arial;
-	border-top: 5px solid blue;
+	font: 19px arial;
+	margin:10px;
+	width:300px;
 }
 
-.botMid a{
+.botMid ul{
+	left:-10px;
+	position:relative;
+	margin-left:40px;
+}
+
+.botMid li{
+	width:300px;
+	list-style-type: square;
+	right:10px;
+}
+
+.botMid .pack{
+	font: 13px arial;
 	text-decoration: none;
 	color:rgb(0,135, 195);
+	text-align:center;
+	display:inline-block;
+}
+
+.botMid .link{
+	font: 13px arial;
+	text-decoration: none;
+	color:rgb(0,135, 195);
+	text-align:center;
+	position:relative;
+	left:-30px;
+}
+
+.footer{
+	margin-top: 50px;
+	text-align:center;
+	background:linear-gradient(rgb(0, 80, 135), rgb(0, 120, 175));
+	padding-bottom:20px;
+}
+
+.footer a{
+	font:20px arial;
+	color:white;
+	text-decoration: none;
+	margin:20px;
+}
+
+.footer p{
+	font:12px arial;
+	color:white;
+	margin-top: 10px;
 }
