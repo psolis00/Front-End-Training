@@ -8,51 +8,63 @@
 	<div class="container">
 
 		<div class="header">
+            <img src="images/globe.png">
             <h1>The Inter<span>net</span></h1>
             <h2>The World Wide Web</h2>
         </div>
 
-        <div class="container">
-            <div class="left">
-                <h3>So, what's an <span>Internet</span></h3>
-                <p>An <span>Inter</span>connected <span>Net</span>work of computers all around the world!</p>
-                <h2>WATCH A VIDEO</h2>
-                <h2>MORE RESOURCES</h2>
+        <div class="left">
+            <h3>So, what's an <span>Internet?</span></h3>
+            <p>An <span class="topic">Inter</span>connected <span class="topic">Net</span>work of computers all around the <br>world!</p>
+            <h2 class="top">WATCH A VIDEO</h2>
+            <h2 class="bottom">MORE RESOURCES</h2>
 
-                <img src="images/ad_background.png">
-                <h1>Reinvent your career in just 14 weeks</h1>
-                <img src="images/ninja.png">
+            <h1>Reinvent your career in just 14 weeks</h1>
+            <img class="background" src="images/ad_background.png">
+            <img class="logo" src="images/ninja.png">
+        </div>
+
+        <div class="right">
+            <div class="top">
+                <div class="left">
+                    <img src="images/home.png">
+                    <h3>DNS</h3>
+                </div>
+
+                <div class="right">
+                    <p>Mon - Fri 9a.m. - 5 p.m. (EST)</p>
+                    <h1>855.967.3787</h1>
+                    <p>International +1.617.963.0555</p>
+                </div>
             </div>
 
-            <div class="right">
-                <div class="top">
-                    <div class="left">
-                        <img src="images/home.png">
-                        <h3>DNS</h3>
-                    </div>
+            <div class="content">
+                <div class="sec0">
+                    <h2>Clients and Servers</h2>
+                    <p>Computers connected to <span class="topic">Web</span> are called <span class="bold">clients</span> and <span class="bold">servers</span>.</p>
+                    <ul>
+                        <li><p><span class="topic">Clients</span> are the typical Web user's Internet-connected devices (for example, your computer connected to your Wi-Fi, or your phone connected to your mobile network) and <span class="topic">Web-accessing software</span> available on those devices (usually a web browser like Firefox or Chrome).</p></li>
+                        <li><p><span class="topic">Servers</span> are computers that store <span class="topic">webpages</span>, <span class="topic">sites</span>, or <span class="topic">apps</span>. When a client device wants to access a webpage, a copy of the webpage is downloaded from the server onto the client machine to be displayed in the user's web browser.</p></li>
+                    </ul>
+                </div>
+                <img src="images/client_server.jpg">
 
-                    <div class="right">
-                        <p>Mon - Fri 9a.m. - 5 p.m. (EST)</p>
-                        <h1>855.967.3787</h1>
-                        <p>International +1.617.963.0555</p>
-                    </div>
+                <div class="sec1">
+                    <h2>So What Actually Happens?</h2>
+                    <ul>
+                        <li><p>The browswer goes to the <span class="topic">DNS server</span> and finds the real address of the <span class="topic">server</span> that the website lives on.</p></li>
+                        <li><p>The browswer sends an <span class="topic">HTTP request</span> message to the server asking it to send a copy of the website to the client.</p></li>
+                        <li><p>If the server approves the client's request, the server sends the client a <span class="topc">"200 OK" message</span>, which means "Permission granted! Here you go!", and then starts sending the website's files to the browswer as a series of small chunks.</p></li>
+                        <li><p>The browser assembles the small chunks into a complete website and siplays it to you!</p></li>
+                    </ul>
                 </div>
 
-                <div class="content">
-                    <div class="sec0">
-                        <h2>Clients and Servers</h2>
-                        <p>Computers connected to <span class="topic">Web</span> are called <span class="bold">clients</span> and <span class="bold">servers</span>.</p>
-                        <ul>
-                            <li><span class="topic">Clients</span> are the typical Web user's Internet-connected devices (for example, your computer connected to your Wi-Fi, or your phone connected to your mobile network) and <span class="topic">Web-accessing software</span> available on those devices (usually a web browser like Firefox or Chrome).
-                                
-                        </ul>
-                    </div>
-
-                    <div class="sec1">
-
-                    </div>
+                <div class="sec2">
+                    <img src="images/html.png">
+                    <h2>The Big 3 - HTML, CSS, JavaScript</h2>
+                    <p> While the server can process information in many different languages, the files that they serve to a client are <span class="italic">always</span> going to be some combination of HTML, CSS, and JavaScript!<br> Learn more about the Big 3 <span class="topic"><a href="#">here</a></span>!</p>
                 </div>
-        	</div>
+            </div>
         </div>
 	</div>
 </body>
