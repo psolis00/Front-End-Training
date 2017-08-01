@@ -32,6 +32,12 @@
     color:white
 }
 
+.body{
+    width:1000px;
+    display:inline-block;
+    background:linear-gradient(lightgrey, white, white, white,white,white,white,white);
+}
+
 .left{
     width: 225px;
     display:inline-block;
@@ -50,8 +56,8 @@
     margin-top:10px;
 }
 
-.left h2.top{
-    background: linear-gradient(rgb(0,100,150), rgb(0,75,125));
+.left h2.b1{
+    background: linear-gradient(rgb(0,125,175), rgb(0,75,125));
     font: 20px arial;
     color:white;
     text-align:center;
@@ -59,17 +65,21 @@
     border-radius: 5px;
     box-shadow:3px 3px grey;
     margin-top: 20px;
+    display:inline-block;
+    width:200px;;
 }
 
-.left h2.bottom{
-    background: linear-gradient(rgb(0,100,150), rgb(0,75,125));
+.left h2.b2{
+    background: linear-gradient(rgb(300, 200, 50), rgb(200,100,0));
     font: 20px arial;
     color:white;
     text-align:center;
     padding:10px;
     border-radius: 5px;
     box-shadow:3px 3px grey;
-    margin-top: 5px
+    margin-top: 5px;
+    display:inline-block;
+    width:200px;
 }
 
 .left span{
@@ -80,17 +90,63 @@
     color:rgb(0, 100, 150);
 }
 
+.left .bottom{
+    display:inline-block;
+    border-top:1px solid black;
+    margin-top:30px;
+    text-align:center;
+}
 .left img.background{
     width:225px;
     bottom:10px;
+    position:relative;
+    border-top: 3px solid black;
+    margin-top: 40px;
 }
 
 .left h1{
-    font: 30px arial;
+    font: 27px arial;
+    position:absolute;
+    text-align:center;
+    width:225px;
+    color:white;
+    bottom:300px;
 }
 
 .left img.logo{
-    height: 150px;
+    height: 125px;
+    position:absolute;
+    left:125px;
+    top:600px;
+    display:inline-block;
+}
+
+.left h2.b3{
+    font:20px arial;
+    color:white;
+    background:linear-gradient(rgb(150,300,300),rgb(100,200,300),rgb(100,200,300),rgb(100,200,300), rgb(150,300,300));
+    border-radius:5px;
+    padding:8px;
+    width:165px;
+    margin-left: 22px;
+    bottom:115px;
+    position:absolute;
+}
+
+.left .bottom span{
+    font:13px arial;
+}
+
+.left span.light{
+    color:rgb(150,300,300);
+}
+
+.left span.med{
+    color:rgb(225,300,300);
+}
+
+.left span.dark{
+    color:white;
 }
 
 .right{
