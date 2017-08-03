@@ -5,7 +5,8 @@
 
 .container{
     background-color:white;
-    width:1000px;
+    width:1010px;
+    height:700;
     margin-left: 50px;
 }
 
@@ -33,7 +34,7 @@
 }
 
 .body{
-    width:1000px;
+    width:1010px;
     display:inline-block;
     background:linear-gradient(lightgrey, white, white, white,white,white,white,white);
 }
@@ -42,6 +43,7 @@
     width: 225px;
     display:inline-block;
     margin-left:5px;
+    vertical-align: top;
 }
 
 .left h3{
@@ -107,10 +109,10 @@
 .left h1{
     font: 27px arial;
     position:absolute;
+    bottom:50px;
     text-align:center;
     width:225px;
     color:white;
-    bottom:300px;
 }
 
 .left img.logo{
@@ -129,8 +131,8 @@
     padding:8px;
     width:165px;
     margin-left: 22px;
-    bottom:115px;
     position:absolute;
+    bottom:-130px;
 }
 
 .left .bottom span{
@@ -151,8 +153,9 @@
 
 .right{
     display:inline-block;
-    width:725px;
+    width:722px;
     margin-left:35px;
+    vertical-align:top;
 }
 
 .right .top{
@@ -211,6 +214,7 @@
     font:25px arial;
     color: rgb(0, 75, 125);
     margin-top:5px;
+    font-weight:bold;
 }
 
 .content p{
@@ -234,7 +238,8 @@
 .sec0 img{
     height:100px;
     margin-left: 220px;
-    margin-top:10px;
+    margin-top:20px;
+    margin-bottom:20px;
 }
 
 .sec1 ul{
@@ -242,19 +247,27 @@
 }
 
 .sec2{
-    margin:20px;
+    margin-top:20px;
+    padding-top:10px;
+    padding-left:10px;
+    padding-left:10px;
     border:5px solid blue;
+    box-shadow:2px 2px grey;
     display:inline-block;
+    width:700px;
 }
 
 .sec2 .text{
     display:inline-block;
-    width: 480px;
+    width: 540px;
+    vertical-align:top;
+    margin-top:20px;
+    margin-bottom:20px;
 }
 
 .sec2 img{
     margin: 10px;
-    height:150px;
+    height:100px;
 }
 
 .sec2 a{
