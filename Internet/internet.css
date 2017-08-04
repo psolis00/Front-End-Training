@@ -97,6 +97,7 @@
     border-top:1px solid black;
     margin-top:30px;
     text-align:center;
+    position:relative;
 }
 .left img.background{
     width:225px;
@@ -106,18 +107,23 @@
     margin-top: 40px;
 }
 
-.left h1{
-    font: 27px arial;
+.left .bottom .abs{
     position:absolute;
     bottom:50px;
+}
+
+.left .bottom h1{
+    font: 27px arial;
     text-align:center;
     width:225px;
+    bottom:275px;
+    display:inline-block;
+    left:125px;
     color:white;
 }
 
 .left img.logo{
     height: 125px;
-    position:absolute;
     left:125px;
     top:600px;
     display:inline-block;
@@ -131,8 +137,7 @@
     padding:8px;
     width:165px;
     margin-left: 22px;
-    position:absolute;
-    bottom:-130px;
+    bottom:100px;
 }
 
 .left .bottom span{
